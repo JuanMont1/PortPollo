@@ -1,0 +1,82 @@
+/* creacion del footer */
+/* Estilo para el footer */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .pie-pagina {
+    border-top: 1px solid black; 
+    background-color: beige;
+    padding: 20px 0; 
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la primera sección del footer */
+  
+  .pie-pagina .grupo-1 {
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 20px 0; 
+  }
+  
+  .pie-pagina .grupo-1 .box figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pie-pagina .grupo-1 .box figure img {
+    max-width: 100%; 
+  }
+  
+  .pie-pagina .grupo-1 .box h2 {
+    color: black;
+    font-size: 20px;
+    margin: 20px auto; 
+  }
+  
+  .pie-pagina .grupo-1 .box p {
+    color: black;
+    margin: 0; 
+    
+  }
+  
+  .pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: color 0.3s ease; 
+  }
+  
+  .pie-pagina .grupo-1 .red-social a:hover {
+    color: orange;
+  }
+  
+  /* Estilos para la segunda sección del footer */
+  
+  .pie-pagina .grupo-2 {
+    border-top: 1px solid black;
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .pie-pagina .grupo-2 small {
+    font-size: 15px;
+  }

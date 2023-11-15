@@ -1,0 +1,180 @@
+/* codigo creado por Juan Carvajal - Valentina Cortes */
+/* importaciones */
+@import "headerG.css";
+@import "global.css";
+@import "footer.css";
+@import "catalogo.css";
+@import "contacto.css";
+@import "slider.css";
+@import "mapa.css";
+
+/*primera section hero (index html)*/
+
+#masspollo .container {
+  text-align: center;
+  padding: 200px 20px;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  clear: both;
+  color: white;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imagenes/pollo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 170px;
+}
+#hero button {
+  margin-top: 30px;
+  padding: 6px;
+  border-radius: 12px;
+  background-color: rgba(254, 204, 111, 0.4);
+  color: white;
+  border: solid 1px white;
+}
+#hero button:hover {
+  background-color: rgba(254, 204, 111, 0.8);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+/* estilos de la section de cards (index.html)*/
+
+
+.cards-container1{
+  display: inline-block;
+  width: 70%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: scroll;
+  background-color: #f7f7f7;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
+  cursor: default;
+  transition: all 400ms ease;
+  border: solid 1px orange;
+  padding: 5px;
+  
+  
+}
+.cards-container1:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, .9);
+  transform: translateY(-3%);
+}
+
+
+.cards1 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imagenes/1600w-NmcFlhJ1GXY.png);
+  display: flex;
+  height: 100%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  filter: opacity();
+  margin: 10px; 
+}
+
+@media (max-width: 700px) {
+  .container{
+    flex-direction: column;
+    width: 100%;
+    
+
+  }
+}
+
+.cards2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://previews.123rf.com/images/notkoo2008/notkoo20081506/notkoo2008150607076/40719217-los-alimentos-fritos-de-pollo-tema-de-dibujos-animados-patr%C3%B3n-de-fondo-sin-fisuras.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  filter: opacity();
+  
+  
+}
+
+.cards-container1 img {
+  width: 100%;
+  height: 200px;
+  opacity: 0.8;
+  transition: 0.5s ease;
+  
+}
+.cards-container1 img:hover {
+  opacity: 1;
+  
+}
+
+.cards-container1 .contenido-cartas{
+  padding: 15px;
+  text-align: center;
+}
+.cards-container1 .contenido-cartas p{
+  line-height: 1.5;
+  color: black;
+}
+.cards-container1 .contenido-cartas h3{
+  line-height: 1.5;
+  color: black;
+}
+.cards-container1 .contenido-cartas a{
+  text-align: center;
+  border:  1px solid orange;
+  color: orange;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: 400ms ease;
+}
+
+.cards-container1 .contenido-cartas a:hover{
+  background-color: orange;
+  color: white;
+}
+
+.mas-cosas{
+  background-color: beige;
+}
+
+#map {
+	height: 80%;
+  width: 100%;
+  
+}
+.mapaUbi {
+  margin-top: 170px;
+}
+
+.img{
+  width: 1000px;
+  height: 1000px;
+}
+
+.tituloheader{
+color: #333;
+font-family: cursive;
+font-size: 50px;
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+/* estilos globales */
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+h1 {
+  font-size: 3.3em;
+}
+h2 {
+  font-size: 2.7em;
+  color: orange;
+}
+p {
+  font-size: 1.25em;
+}

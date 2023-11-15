@@ -1,0 +1,75 @@
+/* estilos de la pagina mapa */
+@import "app.css";
+@import "estilos.css";
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  aside {
+    flex: 30%;
+    margin-top: 170px;
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    
+  }
+
+  aside h2{
+  color: #333;  
+  font-size: 2em; 
+  margin-bottom: 10px;
+  }
+  
+  .video-link h4{
+    opacity: 0;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .7);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: ease 1s;
+    
+  }
+
+  .video-link:hover h4{
+    opacity: 1;
+    
+  }
+  
+
+
+  #map {
+    width: 100%;
+    height: 400px; 
+  }
+ 
+  
+  
+
+  .video-link img {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 20px;
+
+  }
+  .mapMain {
+    flex: 70%;
+    width: 100%;
+    margin-top: 170px;
+    text-align: center;
+    
+  }
+  
+  @media screen and (max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+  }
+
